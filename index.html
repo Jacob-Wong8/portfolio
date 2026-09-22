@@ -31,7 +31,7 @@
           <div class="about-content">
             <div class="photo-wrap"><img src="assets/image.png" alt="Jacob Wong" loading="eager" /></div>
             <div class="about-copy">
-              <p>I’m a Computer Engineering student at Queen’s University and previously worked as a Data Engineering Intern at RBC Global Asset Management. I’m interested in data engineering, machine learning, and advanced data analysis.</p>
+              <p>I'm a Computer Engineering student at Queen's University and previously worked as a Data Engineering Intern at RBC Global Asset Management. My interests are data engineering, advanced data analysis, and machine learning.</p>
               <p>Outside of school and work, I enjoy working out, watching the NHL, and playing poker.</p>
               <p><a class="plain-link" href="assets/Jacob_Wong_Resume.pdf" download="Jacob_Wong_Resume.pdf">Download my resume</a></p>
             </div>
@@ -67,6 +67,53 @@
               <p>Taught Python with Tkinter and PyGame to 150+ youth, raising average test scores by 20%.</p>
               <p>Built a Micro:bit pedometer streaming live sensor data, matching manual step counts with 90% accuracy.</p>
             </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section" aria-labelledby="projects-title">
+        <div class="section-inner">
+          <h2 id="projects-title">Projects</h2>
+          <div class="project-grid">
+            <article class="project-card">
+                <img src="public/image.png" alt="" loading="lazy" />
+                <div class="project-copy">
+                  <h3>Aero Autonomy Manager</h3>
+                  <p>Developed autonomous flight, perception, and telemetry systems for the SAE Aero 2027 competition aircraft. Containerized ROS2 nodes using Docker to unify developer environments across a 10-person software team and built a GCP ETL pipeline to stream aerial imagery during test flights.</p>
+                  <span>Python · ROS2 · PX4 · Docker</span>
+                  <a href="https://github.com/Queen-s-Aerospace-Design-Team/AeroSAE2027" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <img src="public/nhl logo.jpg" alt="" loading="lazy" />
+                <div class="project-copy">
+                  <h3>NHL Game Stat Pipeline</h3>
+                  <p>Built an end-to-end streaming ELT pipeline replaying live NHL event data via Kafka into S3. Processed play-by-play raw JSON through Databricks Delta Lake medallion architecture (Bronze/Silver/Gold) to calculate real-time skater statistics, integrated with GCP BigQuery and a Streamlit dashboard.</p>
+                  <span>Kafka · Databricks · AWS S3 · BigQuery</span>
+                  <a href="https://github.com/Jacob-Wong8/NHL-game-stat-pipeline" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <img src="public/logistic_curve.png" alt="" loading="lazy" />
+                <div class="project-copy">
+                  <h3>MoveModel</h3>
+                  <p>Engineered a binary logistic regression model in Python to classify human movement (walking vs. jumping) from raw accelerometer data. Preprocessed and cleaned multi-axis signal noise using pandas and NumPy, achieving 95% test classification accuracy.</p>
+                  <span>Python · Machine Learning · pandas · matplotlib · NumPy</span>
+                  <a href="https://github.com/Jacob-Wong8/MoveModel" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <img src="public/dasm.png" alt="" loading="lazy" />
+                <div class="project-copy">
+                  <h3>Driver Attention Monitor</h3>
+                  <p>Developed a real-time computer vision system on Raspberry Pi using OpenCV to detect driver drowsiness and distraction behaviors. Processed live video feeds across 50+ test clips and logged driver distraction indices to Excel for temporal analysis.</p>
+                  <span>Python · OpenCV · Computer Vision</span>
+                  <a href="https://github.com/Beef-1/elec290" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+                </div>
+              </article>
           </div>
         </div>
       </section>
