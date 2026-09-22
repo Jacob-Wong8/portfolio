@@ -50,7 +50,13 @@ p { color: var(--muted); font-size: 15px; }
 .experience-card p { margin-bottom: 12px; font-size: 13px; line-height: 1.45; }
 .project-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
 .project-card { overflow: hidden; border: 1px solid var(--border); border-radius: 18px; background: var(--card); }
-.project-card > img { display: block; width: 100%; height: 145px; object-fit: cover; object-position: center; filter: grayscale(1); opacity: .65; }
+.project-card > img {
+  display: block;
+  width: 100%;
+  height: 145px;
+  object-fit: cover;
+  object-position: center;
+}
 .project-copy { padding: 22px 24px 24px; }
 .project-copy h3 { margin-bottom: 12px; }
 .project-copy p { min-height: 44px; margin-bottom: 14px; font-size: 13px; }
