@@ -17,7 +17,8 @@
     <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
       <nav class="site-nav" aria-label="Primary navigation">
-        <a class="nav-link is-active" href="#about">About</a>
+        <a class="nav-link is-active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
         <a class="nav-link" href="#experience">Experience</a>
         <a class="nav-link" href="#projects">Projects</a>
         <a class="nav-link" href="#contact">Contact</a>
@@ -25,9 +26,24 @@
     </header>
 
     <main id="main-content">
+      <section id="home" class="section hero-section" aria-labelledby="hero-title">
+        <div class="section-inner">
+          <h1 id="hero-title">Hi!. I'm Jacob</h1>
+          <p class="hero-subtitle">Computer Engineering student at Queen's University</p>
+          <div class="social-row" aria-label="Social links">
+            <a class="social-icon" href="https://www.linkedin.com/in/jacobwong-/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+            </a>
+            <a class="social-icon" href="https://github.com/Jacob-Wong8" target="_blank" rel="noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.2c0 4.5 2.87 8.31 6.84 9.66.5.1.68-.22.68-.49 0-.24-.01-.88-.01-1.72-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.48-.01 2.82 0 .27.18.6.69.49A10.2 10.2 0 0 0 22 12.2C22 6.58 17.52 2 12 2z"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section id="about" class="section about-section" aria-labelledby="about-title">
         <div class="section-inner">
-          <h1 id="about-title">About Me</h1>
+          <h2 id="about-title">About Me</h2>
           <div class="about-content">
             <div class="photo-wrap"><img src="assets/image.png" alt="Jacob Wong" loading="eager" /></div>
             <div class="about-copy">
@@ -44,7 +60,7 @@
           <div class="experience-grid">
             <article class="experience-card">
               <div class="card-top">
-                <span class="company-mark rbc-mark"><img src="public/rbc.png" alt="RBC logo" /></span>
+                <span class="company-mark rbc-mark"><img src="public/rbc.jpg" alt="RBC logo" /></span>
                 <span class="card-date">May 2026 — August 2026</span>
               </div>
               <h3>Data Engineering Intern</h3>
@@ -129,7 +145,7 @@
       <section id="contact" class="section contact-section" aria-labelledby="contact-title">
         <div class="section-inner">
           <h2 id="contact-title">Contact</h2>
-          <p>Send me a message directly from here.</p>
+          <p>I'm open to new opportunities and always happy to talk! Feel free to email me.</p>
           <form id="contact-form" class="contact-form">
             <label for="email">Your email</label>
             <input id="email" name="email" type="email" autocomplete="email" required />
@@ -145,7 +161,7 @@
       </section>
     </main>
 
-    <footer class="site-footer"><span>© 2026 Jacob Wong</span><a href="#about">Back to top</a></footer>
+    <footer class="site-footer"><span>© 2026 Jacob Wong</span><a href="#home">Back to top</a></footer>
     <script type="module" src="js/main.js"></script>
   </body>
 </html>
